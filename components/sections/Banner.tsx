@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Navbar from '../header/Navbar'
+import Navbar from '../reusable/Navbar'
+
 import {motion} from 'framer-motion'
 
 const Banner:React.FC = () => {
