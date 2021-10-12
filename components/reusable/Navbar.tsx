@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <header className="mt-2 sticky top-0 z-20">
             <nav className="container mx-auto py-6 flex flex-col md:flex-row items-center justify-center md:justify-between">
-                <h2 className="text-center md:text-left text-3xl md:text-2xl font-bold text-mainOrange">Group Royal Services</h2>
+                <h2 className="text-center md:text-left text-3xl md:text-2xl font-bold text-mainOrange cursor-pointer">Group Royal Services</h2>
                 <ul className="flex items-center gap-16">
                     <Link className="hidden md:block cursor-pointer nav_item active text-mainBlue font-semibold" activeClass="text-mainOrange" to="homebanner" spy={true} smooth={true} duration={500}>Home</Link>
                     <Link className="hidden md:block cursor-pointer nav_item text-mainBlue font-semibold" to="aboutUs" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
